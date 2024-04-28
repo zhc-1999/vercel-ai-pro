@@ -63,6 +63,7 @@ model_infos = {
     'gpt-3.5-turbo': 'https://chatpro.ai-pro.org/api/ask/openAI',
     'gpt-4-1106-preview': 'https://chatpro.ai-pro.org/api/ask/openAI',
     'gpt-4-pro-max': 'https://chatpro.ai-pro.org/api/ask/openAI',
+    'gpt-4': 'https://chatpro.ai-pro.org/api/ask/openAI',
     'gpt-4-turbo': 'https://chatpro.ai-pro.org/api/ask/openAI',
     'gpt-4-turbo-2024-04-09': 'https://chatpro.ai-pro.org/api/ask/openAI',
 
