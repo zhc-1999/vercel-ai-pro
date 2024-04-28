@@ -90,8 +90,8 @@ async def chat(request: Request):
             if msg['role'] == 'user':
                 chat_id = find_chat_by_question.get(msg['content'])
                 break
-
-    text = request_json['messages'][-1]['content']
+    text = ' '.join(message['role'] + ' ' + message['content'] for message in request_json['messages'])
+    # text = request_json['messages'][-1]['content']
     model = request_json['model']
 
     def next_chat_web(msg):
